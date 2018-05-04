@@ -15,6 +15,7 @@ namespace Quizzer
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
+			//changes for feature 1
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
